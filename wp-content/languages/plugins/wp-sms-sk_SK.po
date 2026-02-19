@@ -1,0 +1,862 @@
+# Translation of Plugins - WSMS (formerly WP SMS) – SMS &amp; MMS Notifications with OTP and 2FA for WooCommerce - Stable (latest release) in Slovak
+# This file is distributed under the same license as the Plugins - WSMS (formerly WP SMS) – SMS &amp; MMS Notifications with OTP and 2FA for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-10-23 07:19:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: sk\n"
+"Project-Id-Version: Plugins - WSMS (formerly WP SMS) – SMS &amp; MMS Notifications with OTP and 2FA for WooCommerce - Stable (latest release)\n"
+
+#: includes/templates/admin/send-sms.php:198
+msgid "Set date"
+msgstr "Nastavte dátum"
+
+#: includes/templates/admin/send-sms.php:192
+msgid "Scheduled message?"
+msgstr "Plánované odoslanie?"
+
+#: includes/class-front.php:51
+msgid "Unknown Error! Check your connection and try again."
+msgstr "Neznáma chyba! Overte svoje pripojenie a skúste znovu."
+
+#: views/components/addon-active-card.php:51 views/components/addon-box.php:56
+msgid "Changelog"
+msgstr "Zoznam zmien"
+
+#: views/pages/onboarding/steps/ready.php:97
+msgid "Ultimate Member"
+msgstr "Ultimátny členovia"
+
+#: includes/class-wpsms-newsletter.php:314
+msgid "The fields must be valued."
+msgstr "Polia musia byť vyplnené."
+
+#: includes/admin/outbox/class-wpsms-outbox.php:234
+msgid "The SMS sent successfully."
+msgstr "SMS odoslaná."
+
+#: includes/admin/outbox/class-wpsms-outbox.php:80
+msgid "Success"
+msgstr "Úspešne"
+
+#: includes/admin/class-wpsms-admin.php:196
+msgid "Edit Group"
+msgstr "Upraviť Skupinu"
+
+#: src/Services/Subscriber/SubscriberUtil.php:136
+msgid "The required parameters must be valued!"
+msgstr "Vyžadované parametre musia byť vyplnené!"
+
+#. translators: 1: Group name
+#. translators: %s: Group name
+#: includes/class-wpsms-newsletter.php:467
+#: includes/class-wpsms-newsletter.php:531
+#: includes/class-wpsms-newsletter.php:561
+msgid "Group Name \"%s\" exists!"
+msgstr "Skupina \"%s\" existuje!"
+
+#: src/Services/Forminator/ForminatorManager.php:35
+msgid "No data"
+msgstr "Žiadne dáta"
+
+#: includes/admin/settings/class-wpsms-settings.php:1268
+msgid "To get more option for GDPR, you should enable that in the general tab."
+msgstr "Ak chcete získať viac možností pre GDPR, povoľte ho na karte Všeobecné."
+
+#: includes/admin/settings/class-wpsms-settings.php:966
+#: includes/admin/settings/class-wpsms-settings.php:1057
+msgid "Post Types"
+msgstr "Typy príspevkov"
+
+#: includes/admin/settings/class-wpsms-settings.php:404
+msgid "Specify the countries to appear at the top of the list."
+msgstr "Zadajte krajiny, ktoré sa majú zobraziť na začiatku zoznamu."
+
+#: includes/admin/settings/class-wpsms-settings.php:400
+#: src/Admin/SiteHealthInfo.php:92
+msgid "Preferred Countries"
+msgstr "Preferované krajiny"
+
+#: includes/admin/settings/class-wpsms-settings.php:396
+msgid "In the dropdown, display only the countries you specify."
+msgstr "V rozbaľovacej ponuke zobrazte iba krajiny, ktoré zadáte."
+
+#: includes/admin/settings/class-wpsms-settings.php:392
+#: src/Admin/SiteHealthInfo.php:85
+msgid "Only Countries"
+msgstr "Iba krajiny"
+
+#: includes/admin/settings/class-wpsms-settings.php:176
+msgid "SMS Newsletter"
+msgstr "Novinky cez SMS"
+
+#: src/Services/Subscriber/SubscriberUtil.php:175
+msgid "Not found the number!"
+msgstr "Číslo nenájdené!"
+
+#: includes/api/v1/class-wpsms-api-newsletter.php:199
+msgid "Your mobile number has been successfully unsubscribed."
+msgstr "Vaše mobilné číslo bolo úspešne odhlásené."
+
+#: includes/api/v1/class-wpsms-api-newsletter.php:229
+#: src/Controller/PublicVerifySubscribeAjax.php:40
+#: src/Services/Subscriber/SubscriberUtil.php:91
+msgid "Your mobile number has been successfully subscribed."
+msgstr "Vaše mobilné číslo bolo úspešne prihlásené."
+
+#: includes/admin/settings/class-wpsms-settings.php:1266
+msgid "GDPR Compliance"
+msgstr "GDPR kompatibilný"
+
+#: includes/templates/admin/fields/field-team-member-repeater.php:21
+#: includes/templates/admin/fields/field-team-member-repeater.php:65
+msgid "Role"
+msgstr "Rola"
+
+#: includes/admin/class-wpsms-admin.php:373
+#: includes/admin/privacy/class-wpsms-privacy.php:22 src/Utils/MenuUtil.php:306
+#: src/Utils/MenuUtil.php:307
+msgid "Privacy"
+msgstr "Ochrana osobných údajov"
+
+#: includes/templates/admin/privacy-page.php:34
+msgid "Note: You cannot undo these actions."
+msgstr "Poznámka: táto operácia sa nedá vrátiť späť"
+
+#: includes/templates/admin/privacy-page.php:17
+#: includes/templates/admin/privacy-page.php:29
+msgid "Enter User’s Mobile Number"
+msgstr "Zadajte mobilné číslo uživateľa"
+
+#: src/Controller/PrivacyDataAjax.php:53
+msgid "User with % s mobile number is removed completely!"
+msgstr "Používateľ s % s mobilným číslom je úplne odstránený!"
+
+#: src/Controller/PrivacyDataAjax.php:116
+msgid "User with this mobile number was not found!"
+msgstr "Používateľ s týmto mobilným číslom nebol nájdený!"
+
+#: src/Controller/PrivacyDataAjax.php:36
+msgid "Please enter the mobile number!"
+msgstr "Zadajte prosím číslo mobilného telefónu!"
+
+#: views/pages/onboarding/steps/ready.php:253
+#: views/pages/onboarding/steps/ready.php:254
+msgid "Awesome Support"
+msgstr "Úžasná podpora"
+
+#: includes/templates/admin/fields/field-wc-status-repeater.php:35
+#: includes/templates/admin/fields/field-wc-status-repeater.php:66
+msgid "Enter the contents of the SMS message."
+msgstr "Zadajte obsah SMS správy."
+
+#: views/components/addon-box.php:44
+msgid "License"
+msgstr "Licencia"
+
+#. Plugin URI of the plugin
+#: wp-sms.php
+msgid "https://wp-sms-pro.com/"
+msgstr "https://wp-sms-pro.com/"
+
+#. Author URI of the plugin
+#: wp-sms.php
+msgid "https://veronalabs.com/"
+msgstr "https://veronalabs.com/"
+
+#. Author of the plugin
+#: wp-sms.php
+msgid "VeronaLabs"
+msgstr "VeronaLabs"
+
+#: includes/admin/class-wpsms-admin.php:203
+msgid "characters"
+msgstr "znakov"
+
+#. translators: %s: Function name
+#: includes/gateways/class-wpsms-gateway-textanywhere.php:241
+msgid "The <code>%s</code> function is not active in your server."
+msgstr "Funkcia <code>%s</code> nie je aktívne na Vašom serveri."
+
+#: views/pages/onboarding/steps/ready.php:235
+msgid "WP Job Manager"
+msgstr "WP personalista"
+
+#: includes/gateways/class-wpsms-gateway-afilnet.php:131
+msgid "Server API Unavailable"
+msgstr "Server API nedostupný"
+
+#: includes/templates/meta-box.php:26
+msgid "Subscribe group"
+msgstr "Skupina pre odoberateľov"
+
+#: src/Services/Formidable/FormidableManager.php:57
+#: src/Services/Forminator/ForminatorManager.php:102
+msgid "Not active"
+msgstr "Neaktívne"
+
+#: src/Services/Forminator/ForminatorManager.php:77
+msgid "Send SMS to field"
+msgstr "Odoslať správu na pole"
+
+#: includes/admin/settings/class-wpsms-settings.php:322
+msgid "All"
+msgstr "Všetko"
+
+#: views/pages/onboarding/steps/ready.php:187
+msgid "Quform"
+msgstr "Quform"
+
+#: views/pages/onboarding/steps/ready.php:122
+msgid "BuddyPress"
+msgstr "BuddyPress"
+
+#: includes/class-wpsms-notifications.php:238
+msgid "SMS Notification"
+msgstr "SMS notifikácie"
+
+#: includes/gateways/class-wpsms-gateway-afe.php:113
+#: includes/gateways/class-wpsms-gateway-aradsms.php:106
+#: includes/gateways/class-wpsms-gateway-arkapayamak.php:114
+#: includes/gateways/class-wpsms-gateway-bestit.php:121
+#: includes/gateways/class-wpsms-gateway-chapargah.php:108
+#: includes/gateways/class-wpsms-gateway-farapayamak.php:108
+#: includes/gateways/class-wpsms-gateway-firstpayamak.php:97
+#: includes/gateways/class-wpsms-gateway-hirosms.php:110
+#: includes/gateways/class-wpsms-gateway-idehpayam.php:110
+#: includes/gateways/class-wpsms-gateway-imencms.php:105
+#: includes/gateways/class-wpsms-gateway-iransmspanel.php:211
+#: includes/gateways/class-wpsms-gateway-iranspk.php:108
+#: includes/gateways/class-wpsms-gateway-jahanpayamak.php:119
+#: includes/gateways/class-wpsms-gateway-labsmobile.php:121
+#: includes/gateways/class-wpsms-gateway-loginpanel.php:109
+#: includes/gateways/class-wpsms-gateway-markazpayamak.php:108
+#: includes/gateways/class-wpsms-gateway-mediana.php:25
+#: includes/gateways/class-wpsms-gateway-novin1sms.php:102
+#: includes/gateways/class-wpsms-gateway-onlinepanel.php:114
+#: includes/gateways/class-wpsms-gateway-paaz.php:108
+#: includes/gateways/class-wpsms-gateway-parsasms.php:104
+#: includes/gateways/class-wpsms-gateway-parsgreen.php:121
+#: includes/gateways/class-wpsms-gateway-payamakaria.php:108
+#: includes/gateways/class-wpsms-gateway-payamakpanel.php:108
+#: includes/gateways/class-wpsms-gateway-payameroz.php:108
+#: includes/gateways/class-wpsms-gateway-persiansms.php:109
+#: includes/gateways/class-wpsms-gateway-rayansmspanel.php:108
+#: includes/gateways/class-wpsms-gateway-razpayamak.php:107
+#: includes/gateways/class-wpsms-gateway-smsban.php:109
+#: includes/gateways/class-wpsms-gateway-smsbartar.php:99
+#: includes/gateways/class-wpsms-gateway-smscall.php:98
+#: includes/gateways/class-wpsms-gateway-smsclick.php:107
+#: includes/gateways/class-wpsms-gateway-smsline.php:99
+#: includes/gateways/class-wpsms-gateway-smstoos.php:108
+#: includes/gateways/class-wpsms-gateway-ssmss.php:102
+#: includes/gateways/class-wpsms-gateway-textsms.php:102
+#: includes/gateways/class-wpsms-gateway-tsms.php:99
+#: includes/gateways/class-wpsms-gateway-websmscy.php:124
+#: includes/gateways/class-wpsms-gateway-_0098sms.php:111
+msgid "Class SoapClient not found. please enable php_soap in your php."
+msgstr "Trieda SoapClient sa nenašla. Povolte vo svojom php php_soap."
+
+#: includes/admin/class-wpsms-admin.php:376
+#: includes/admin/class-wpsms-admin.php:377 includes/templates/header.php:86
+#: src/Services/Hooks/HooksManager.php:32 src/Utils/MenuUtil.php:315
+#: src/Utils/MenuUtil.php:316 views/components/addon-active-card.php:47
+#: views/components/addon-box.php:51 views/templates/header.php:39
+#: views/templates/header.php:70 assets/blocks/SendSms/index.js:1
+#: assets/src/blocks/SendSms/edit.js:51
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: includes/admin/settings/class-wpsms-settings.php:1664
+msgid "Upload File"
+msgstr "Nahrať súbor"
+
+#: includes/admin/settings/class-wpsms-settings.php:1108
+msgid "Message Body for User"
+msgstr "Telo správy pre používateľa"
+
+#: includes/admin/settings/class-wpsms-settings.php:1102
+msgid "Message Body for Admin"
+msgstr "Telo správy pre admina"
+
+#: includes/admin/settings/class-wpsms-settings.php:494
+#: includes/gateways/class-wpsms-gateway-prosms.php:34
+#: includes/gateways/class-wpsms-gateway-prosmsdk.php:34
+msgid "Enter API key of gateway"
+msgstr "Zadajte kľúč rozhrania API"
+
+#: includes/admin/settings/class-wpsms-settings.php:492
+#: includes/gateways/class-wpsms-gateway-farazsms.php:90
+#: includes/gateways/class-wpsms-gateway-fast2sms.php:44
+#: includes/gateways/class-wpsms-gateway-ghasedak.php:110
+#: includes/gateways/class-wpsms-gateway-kavenegar.php:92
+#: includes/gateways/class-wpsms-gateway-octopush.php:39
+#: includes/gateways/class-wpsms-gateway-sms.php:90
+#: includes/gateways/class-wpsms-gateway-smsozone.php:29
+msgid "API Key"
+msgstr "API key"
+
+#: includes/gateways/class-wpsms-gateway-farazsms.php:84
+#: includes/gateways/class-wpsms-gateway-ghasedak.php:104
+#: includes/gateways/class-wpsms-gateway-kavenegar.php:86
+#: includes/gateways/class-wpsms-gateway-melipayamak.php:110
+#: includes/gateways/class-wpsms-gateway-sms.php:84
+msgid "Sender Number"
+msgstr "Číslo odosielateľa"
+
+#: includes/admin/settings/class-wpsms-settings.php:480
+msgid "Enter API password of gateway"
+msgstr "Zadajte heslo rozhrania API brány"
+
+#: includes/admin/settings/class-wpsms-settings.php:478
+#: includes/gateways/class-wpsms-gateway-melipayamak.php:105
+msgid "API Password"
+msgstr "API heslo"
+
+#: includes/admin/settings/class-wpsms-settings.php:471
+#: includes/gateways/class-wpsms-gateway-melipayamak.php:100
+msgid "API Username"
+msgstr "API používateľské meno"
+
+#: includes/admin/settings/class-wpsms-settings.php:306
+#: includes/templates/admin/fields/field-wc-status-repeater.php:26
+#: includes/templates/admin/fields/field-wc-status-repeater.php:59
+msgid "Enable"
+msgstr "Povoliť"
+
+#: includes/class-wpsms-gateway.php:681 src/Services/Hooks/HooksManager.php:63
+msgid "Please select your gateway"
+msgstr "Prosím, vyberte si svoju bránu"
+
+#: src/Controller/OnBoardingTestGateway.php:77
+#: src/Controller/OnBoardingTestGateway.php:84
+#: src/Controller/OnBoardingTestGateway.php:91
+msgid "Supported"
+msgstr "Podporované"
+
+#: views/pages/onboarding/steps/sms-gateway.php:224
+msgid "Gateway Name"
+msgstr "Názov brány"
+
+#: includes/admin/settings/class-wpsms-settings.php:342
+#: views/pages/onboarding/steps/getting-started.php:26
+msgid "Admin Mobile Number"
+msgstr "Číslo mobilu admina"
+
+#: includes/admin/settings/class-wpsms-settings.php:307
+#: includes/admin/settings/class-wpsms-settings.php:357
+#: includes/templates/admin/fields/field-wc-status-repeater.php:27
+#: includes/templates/admin/fields/field-wc-status-repeater.php:60
+msgid "Disable"
+msgstr "Neaktívne"
+
+#. translators: %s: Gateway description
+#: includes/templates/admin/send-sms.php:150
+msgid "Gateway description: %s"
+msgstr "Popis brány: %s"
+
+#: includes/admin/class-wpsms-admin.php:379
+#: includes/admin/class-wpsms-admin.php:381
+#: includes/admin/settings/class-wpsms-settings.php:184
+#: includes/templates/header.php:61 includes/templates/header.php:85
+#: src/Utils/MenuUtil.php:324 src/Utils/MenuUtil.php:325
+#: views/pages/onboarding/steps/ready.php:48
+msgid "Integrations"
+msgstr "Integrácie"
+
+#: views/pages/onboarding/steps/sms-gateway.php:96
+msgid "Gateway"
+msgstr "Brána"
+
+#: includes/templates/admin/send-sms.php:34
+msgid "Send"
+msgstr "Poslať"
+
+#: includes/admin/class-wpsms-admin.php:553
+#: includes/admin/class-wpsms-admin.php:554
+msgid "Click here to rate and review this plugin on WordPress.org"
+msgstr "Kliknite tu pre ohodnotenie a posúdenie tohto pluginu na WordPress.org"
+
+#: includes/admin/groups/class-wpsms-groups-table.php:76
+#: includes/admin/subscribers/class-wpsms-subscribers-table.php:78
+msgid "Edit"
+msgstr "Zmeniť"
+
+#: includes/admin/outbox/class-wpsms-outbox.php:129
+#: includes/gateways/class-wpsms-gateway-octopush.php:44
+msgid "Sender"
+msgstr "Odosielateľ"
+
+#: includes/templates/subscribe-form.php:70
+#: includes/templates/subscribe-form.php:71
+msgid "Unsubscribe"
+msgstr "Odhlásiť odber"
+
+#: includes/class-front.php:52
+msgid "Loading..."
+msgstr "Načítava sa..."
+
+#: includes/templates/meta-box.php:11
+msgid "Please select"
+msgstr "Prosím, vyberte"
+
+#: includes/class-front.php:53 includes/templates/subscribe-form.php:65
+#: includes/templates/subscribe-form.php:66
+#: includes/templates/subscribe-form.php:85
+msgid "Subscribe"
+msgstr "Prihlásiť sa"
+
+#: includes/admin/class-wpsms-admin.php:368
+#: includes/admin/settings/class-wpsms-settings.php:983
+#: includes/templates/admin/send-sms.php:52
+#: includes/templates/admin/subscribers.php:12
+#: includes/templates/meta-box.php:14 src/Utils/MenuUtil.php:288
+#: src/Utils/MenuUtil.php:289
+msgid "Subscribers"
+msgstr "Odberatelia"
+
+#: includes/templates/admin/subscribers.php:16
+msgid "Import"
+msgstr "Importovať"
+
+#: includes/admin/class-wpsms-admin.php:369
+#: includes/templates/admin/groups.php:10 src/Utils/MenuUtil.php:297
+#: src/Utils/MenuUtil.php:298
+msgid "Groups"
+msgstr "Skupiny"
+
+#: includes/admin/subscribers/class-wpsms-subscribers-table.php:132
+#: includes/templates/admin/subscriber-form.php:25
+#: includes/templates/admin/subscriber-form.php:45
+#: includes/templates/email/partials/report-data.php:72
+msgid "Group"
+msgstr "Skupina"
+
+#: includes/templates/admin/subscribers.php:14
+msgid "Add Subscriber"
+msgstr "Pridať odberateľa"
+
+#: src/Admin/OnBoarding/WizardManager.php:225
+msgid "Back"
+msgstr "Späť"
+
+#: includes/templates/formidable/formidable-form.php:11
+#: includes/templates/wpcf7-form.php:19
+msgid "Numbers"
+msgstr "Číslo"
+
+#: includes/gateways/class-wpsms-gateway-smses.php:91
+msgid "Password"
+msgstr "Heslo"
+
+#: includes/templates/header.php:71 views/pages/onboarding/steps/ready.php:27
+msgid "Support"
+msgstr "Podpora"
+
+#: includes/gateways/class-wpsms-gateway-smses.php:86
+msgid "Username"
+msgstr "Uživateľské meno"
+
+#: includes/admin/class-wpsms-admin.php:70 src/Admin/AdminManager.php:76
+msgid "WordPress"
+msgstr "WordPress"
+
+#: views/pages/onboarding/steps/ready.php:65
+#: views/pages/onboarding/steps/ready.php:66
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/admin/class-wpsms-admin.php:292
+#: includes/admin/settings/class-wpsms-settings.php:1358
+#: includes/admin/subscribers/class-wpsms-subscribers-table.php:97
+#: includes/class-wpsms-gateway.php:980
+#: includes/templates/admin/subscriber-form.php:57
+#: includes/templates/admin/subscriber-form.php:60
+#: includes/templates/email/partials/report-data.php:74
+#: src/Admin/SiteHealthInfo.php:107 src/Controller/OnBoardingTestGateway.php:65
+msgid "Active"
+msgstr "Aktívny"
+
+#: includes/admin/settings/class-wpsms-settings-integration.php:28
+#: views/pages/onboarding/steps/ready.php:147
+#: views/pages/onboarding/steps/ready.php:148
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: includes/admin/class-wpsms-admin.php:331
+#: includes/admin/class-wpsms-admin.php:363 includes/class-front.php:80
+#: includes/class-wpsms-gateway.php:495
+#: includes/gateways/class-wpsms-gateway-tubelightcommunications.php:50
+#: includes/templates/admin/fields/field-team-member-repeater.php:42
+#: includes/templates/admin/fields/field-team-member-repeater.php:86
+#: includes/templates/admin/user-profile-fields.php:2
+#: src/Utils/MenuUtil.php:261
+msgid "SMS"
+msgstr "SMS"
+
+#: includes/admin/settings/class-wpsms-settings.php:718
+#: includes/templates/widget.php:3 assets/blocks/SendSms/index.js:1
+#: assets/blocks/Subscribe/index.js:1 assets/src/blocks/SendSms/edit.js:102
+#: assets/src/blocks/Subscribe/edit.js:35
+msgid "Title"
+msgstr "Názov"
+
+#: includes/templates/subscribe-form.php:20
+msgid "Your Name"
+msgstr "Vaše meno"
+
+#: includes/admin/class-wpsms-admin.php:287 includes/templates/chatbox.php:37
+msgid "Close"
+msgstr "Zatvoriť"
+
+#: includes/templates/admin/fields/field-team-member-repeater.php:27
+#: includes/templates/admin/fields/field-team-member-repeater.php:71
+msgid "Upload"
+msgstr "Nahrať"
+
+#: includes/templates/admin/group-form.php:19
+#: includes/templates/admin/subscriber-form.php:47
+#: includes/templates/admin/subscriber-form.php:73
+msgid "Add"
+msgstr "Pridať"
+
+#: includes/admin/groups/class-wpsms-groups-table.php:169
+#: includes/admin/groups/class-wpsms-groups-table.php:188
+#: includes/admin/groups/class-wpsms-groups.php:26
+#: includes/admin/groups/class-wpsms-groups.php:40
+#: includes/admin/outbox/class-wpsms-outbox.php:184
+#: includes/admin/outbox/class-wpsms-outbox.php:202
+#: includes/admin/outbox/class-wpsms-outbox.php:219
+#: includes/admin/subscribers/class-wpsms-subscribers-table.php:205
+#: includes/admin/subscribers/class-wpsms-subscribers-table.php:221
+#: includes/admin/subscribers/class-wpsms-subscribers-table.php:234
+#: includes/admin/subscribers/class-wpsms-subscribers.php:41
+#: includes/admin/subscribers/class-wpsms-subscribers.php:60
+#: includes/class-wpsms-newsletter.php:67
+#: src/Controller/AjaxControllerAbstract.php:41
+msgid "Access denied."
+msgstr "Prístup zamietnutý!"
+
+#: includes/admin/groups/class-wpsms-groups-table.php:84
+#: includes/admin/groups/class-wpsms-groups-table.php:138
+#: includes/admin/outbox/class-wpsms-outbox.php:96
+#: includes/admin/outbox/class-wpsms-outbox.php:155
+#: includes/admin/subscribers/class-wpsms-subscribers-table.php:79
+#: includes/admin/subscribers/class-wpsms-subscribers-table.php:163
+#: includes/templates/admin/fields/field-resource-link-repeater.php:20
+#: includes/templates/admin/fields/field-resource-link-repeater.php:36
+#: includes/templates/admin/fields/field-team-member-repeater.php:52
+#: includes/templates/admin/fields/field-team-member-repeater.php:96
+#: includes/templates/admin/fields/field-wc-status-repeater.php:39
+#: includes/templates/admin/fields/field-wc-status-repeater.php:70
+#: includes/templates/admin/privacy-page.php:32
+msgid "Delete"
+msgstr "Odstrániť"
+
+#: includes/templates/admin/send-sms.php:241
+msgid "Yes"
+msgstr "Áno"
+
+#: includes/templates/admin/groups.php:25
+#: includes/templates/admin/outbox.php:22
+#: includes/templates/admin/subscribers.php:35
+#: views/pages/onboarding/steps/sms-gateway.php:30
+msgid "Search"
+msgstr "Vyhľadať"
+
+#: includes/admin/class-wpsms-admin.php:366 includes/templates/header.php:60
+#: includes/templates/header.php:84 src/Utils/MenuUtil.php:270
+#: src/Utils/MenuUtil.php:271
+msgid "Outbox"
+msgstr "Odoslané"
+
+#. translators: %s: SMS credit
+#: includes/admin/class-wpsms-admin.php:349
+msgid "%s SMS Credit"
+msgstr "%s SMS kredit"
+
+#. translators: %s: Number of subscribers
+#: includes/admin/class-wpsms-admin.php:346
+msgid "%s Subscriber"
+msgstr "%s odoberateľ"
+
+#: includes/admin/class-wpsms-admin.php:71 includes/templates/chatbox.php:115
+#: src/Admin/SiteHealthInfo.php:24 src/Blocks/BlockAssetsManager.php:48
+msgid "WP SMS"
+msgstr "WP SMS"
+
+#: includes/templates/subscribe-form.php:12
+#: src/Shortcode/SubscriberShortcode.php:19
+msgid "Subscribe SMS"
+msgstr "Odoberať SMS"
+
+#: includes/admin/class-wpsms-admin.php:554
+msgid "Subscribe to our Email Newsletter"
+msgstr "Prihláste sa na odber noviniek emailom"
+
+#: includes/admin/class-wpsms-admin.php:553
+msgid "Rate this plugin"
+msgstr "Ohodnotiť plugin"
+
+#: includes/admin/subscribers/class-wpsms-subscribers-table.php:134
+msgid "Activate code"
+msgstr "Aktivačný kód"
+
+#: includes/admin/groups/class-wpsms-groups-table.php:119
+msgid "Total subscribers"
+msgstr "Celkom odoberateľov"
+
+#: includes/admin/groups/class-wpsms-groups-table.php:197
+#: includes/admin/outbox/class-wpsms-outbox.php:210
+#: includes/admin/subscribers/class-wpsms-subscribers-table.php:229
+msgid "Item removed."
+msgstr "Položka odstránená"
+
+#: includes/admin/groups/class-wpsms-groups-table.php:180
+#: includes/admin/outbox/class-wpsms-outbox.php:194
+#: includes/admin/subscribers/class-wpsms-subscribers-table.php:215
+msgid "Items removed."
+msgstr "Položky odstránené"
+
+#: includes/admin/outbox/class-wpsms-outbox.php:132
+msgid "Recipient"
+msgstr "Príjemca"
+
+#: includes/admin/outbox/class-wpsms-outbox.php:131
+#: includes/templates/admin/order-view-metabox.php:22
+#: includes/templates/admin/quick-reply.php:25
+#: includes/templates/admin/send-sms.php:163
+#: includes/templates/send-sms-form.php:28
+msgid "Message"
+msgstr "Správa"
+
+#: includes/admin/class-wpsms-admin.php:258
+#: includes/admin/outbox/class-wpsms-outbox.php:130
+#: includes/admin/subscribers/class-wpsms-subscribers-table.php:133
+msgid "Date"
+msgstr "Dátum"
+
+#: includes/admin/outbox/class-wpsms-outbox.php:95
+msgid "Resend"
+msgstr "Preposlať"
+
+#: includes/templates/widget.php:9
+msgid "HTML code is valid."
+msgstr "Platný HTML kód."
+
+#: includes/templates/widget.php:8 assets/blocks/SendSms/index.js:1
+#: assets/blocks/Subscribe/index.js:1 assets/src/blocks/SendSms/edit.js:107
+#: assets/src/blocks/Subscribe/edit.js:45
+msgid "Description"
+msgstr "Popis"
+
+#: includes/templates/mobile-field.php:7
+msgid "User mobile number."
+msgstr "Mobilné číslo uživateľa."
+
+#: includes/admin/class-wpsms-admin.php:293
+msgid "Activating"
+msgstr "Aktivácia"
+
+#: src/Blocks/SendSmsBlock.php:53
+msgid "Select a group"
+msgstr "Vyberte skupinu"
+
+#: includes/templates/admin/subscribers.php:15
+msgid "Manage Groups"
+msgstr "Spravovať skupiny"
+
+#: includes/templates/admin/import-subscriber-form.php:58
+msgid "Please Select"
+msgstr "Prosím vyberte:"
+
+#: includes/templates/admin/export-inbox-form.php:28
+#: includes/templates/admin/export-outbox-form.php:28
+#: includes/templates/admin/export-subscriber-form.php:48
+#: includes/templates/admin/outbox.php:12
+#: includes/templates/admin/privacy-page.php:20
+#: includes/templates/admin/subscribers.php:17
+msgid "Export"
+msgstr "Export"
+
+#: includes/admin/class-wpsms-admin.php:195
+msgid "Edit Subscriber"
+msgstr "Upraviť odoberateľa"
+
+#: includes/admin/groups/class-wpsms-groups-table.php:118
+#: includes/admin/subscribers/class-wpsms-subscribers-table.php:130
+#: includes/templates/admin/fields/field-team-member-repeater.php:17
+#: includes/templates/admin/fields/field-team-member-repeater.php:61
+#: includes/templates/admin/group-form.php:6
+#: includes/templates/admin/group-form.php:7
+#: includes/templates/admin/subscriber-form.php:10
+#: includes/templates/admin/subscriber-form.php:11
+msgid "Name"
+msgstr "Meno"
+
+#: includes/templates/admin/groups.php:13
+msgid "Add Group"
+msgstr "Pridať skupinu"
+
+#: includes/templates/email/partials/report-data.php:73
+msgid "Deactive"
+msgstr "Deaktivovať"
+
+#: includes/class-wpsms-gateway.php:493
+msgid "Credit"
+msgstr "Kredity"
+
+#: includes/admin/settings/class-wpsms-settings.php:177
+#: includes/templates/header.php:67 includes/templates/header.php:90
+#: views/components/notification/side-bar.php:10
+msgid "Notifications"
+msgstr "Upozornenia"
+
+#: includes/admin/settings/class-wpsms-settings.php:174
+#: src/Services/Report/EmailReportGenerator.php:120
+msgid "General"
+msgstr "Všeobecné"
+
+#: includes/templates/admin/group-form.php:17
+#: includes/templates/admin/subscriber-form.php:71
+msgid "Update"
+msgstr "Aktualizovať"
+
+#: includes/templates/admin/send-sms.php:245
+msgid "No"
+msgstr "Nie"
+
+#. translators: %s: Number of active subscribers
+#: includes/templates/meta-box.php:31
+msgid "All (%s subscribers active)"
+msgstr "Všetci (%s odoberatelia aktívny)"
+
+#: includes/templates/admin/send-sms.php:73 includes/templates/meta-box.php:17
+#: includes/templates/meta-box.php:42
+msgid "Number(s)"
+msgstr "Číslo(a)"
+
+#: includes/admin/class-wpsms-admin.php:364
+#: includes/templates/admin/order-view-metabox.php:37
+#: includes/templates/admin/send-sms.php:28
+#: includes/templates/admin/send-sms.php:280 includes/templates/header.php:56
+#: includes/templates/send-sms-form.php:23
+#: src/Services/WooCommerce/OrderViewManager.php:27 src/Utils/MenuUtil.php:260
+msgid "Send SMS"
+msgstr "Odoslať SMS"
+
+#: includes/templates/admin/outbox.php:10
+msgid "Outbox SMS"
+msgstr "Odoslané SMS"
+
+#: includes/admin/settings/class-wpsms-settings.php:1088
+msgid "Register a new user"
+msgstr "Zaregistrovať nového používateľa"
+
+#: includes/admin/settings/class-wpsms-settings.php:1072
+msgid "The new release of WordPress"
+msgstr "Nové vydanie WordPress"
+
+#. translators: %s: WordPress version number
+#: includes/class-wpsms-notifications.php:75
+msgid "WordPress %s is available! Please update now"
+msgstr "WordPress %s je k dispozícii. Aktualizujete WordPress na najnovšiu verziu!"
+
+#: views/pages/onboarding/steps/ready.php:215
+msgid "Easy Digital Downloads"
+msgstr "Jednoduché digitálne sťahovanie"
+
+#: includes/admin/outbox/class-wpsms-outbox.php:134
+#: includes/admin/settings/class-wpsms-settings.php:515
+#: includes/admin/settings/class-wpsms-settings.php:675
+#: includes/admin/settings/class-wpsms-settings.php:959
+#: includes/admin/settings/class-wpsms-settings.php:1050
+#: includes/admin/settings/class-wpsms-settings.php:1079
+#: includes/admin/settings/class-wpsms-settings.php:1095
+#: includes/admin/settings/class-wpsms-settings.php:1123
+#: includes/admin/settings/class-wpsms-settings.php:1145
+#: includes/admin/settings/class-wpsms-settings.php:1178
+#: includes/admin/subscribers/class-wpsms-subscribers-table.php:135
+#: includes/templates/admin/subscriber-form.php:54
+#: includes/templates/email/partials/report-data.php:48
+#: src/Services/Formidable/FormidableManager.php:49
+#: views/pages/onboarding/steps/configuration.php:93
+msgid "Status"
+msgstr "Stav"
+
+#: includes/templates/formidable/formidable-form.php:40
+#: includes/templates/wpcf7-form.php:65
+msgid "Send to field"
+msgstr "Odoslať do poľa"
+
+#: includes/templates/formidable/formidable-form.php:36
+#: includes/templates/wpcf7-form.php:61
+msgid "Send to form"
+msgstr "Odoslať do poľa"
+
+#: includes/templates/formidable/formidable-form.php:20
+#: includes/templates/formidable/formidable-form.php:57
+#: includes/templates/meta-box.php:80 includes/templates/wpcf7-form.php:50
+#: includes/templates/wpcf7-form.php:74
+#: src/Services/Forminator/ForminatorManager.php:66
+#: src/Services/Forminator/ForminatorManager.php:90
+msgid "Message body"
+msgstr "Telo správy"
+
+#: src/User/MobileFieldHandler/AbstractFieldHandler.php:62
+#: src/User/MobileFieldHandler/WooCommerceAddMobileFieldHandler.php:93
+#: src/User/MobileFieldHandler/WordPressMobileFieldHandler.php:87
+msgid "<strong>ERROR</strong>: You must enter the mobile number."
+msgstr "<strong>CHYBA: </strong>Musí obsahovať mobilné číslo"
+
+#: includes/admin/subscribers/class-wpsms-subscribers-table.php:131
+#: includes/templates/admin/subscriber-form.php:16
+#: includes/templates/mobile-field.php:4
+#: src/User/MobileFieldHandler/WordPressMobileFieldHandler.php:55
+msgid "Mobile"
+msgstr "Mobil"
+
+#: includes/class-wpsms-newsletter.php:556
+msgid "Group successfully updated."
+msgstr "Skupina upravená"
+
+#: includes/class-wpsms-newsletter.php:496
+msgid "Group successfully added."
+msgstr "Skupina vytvorená"
+
+#: includes/class-wpsms-newsletter.php:455
+msgid "Name is empty!"
+msgstr "Meno je prázdne!"
+
+#: includes/class-wpsms-newsletter.php:349
+msgid "Subscriber successfully updated."
+msgstr "Odberateľ upravený"
+
+#: includes/class-wpsms-newsletter.php:149
+msgid "Subscriber successfully added."
+msgstr "Odberateľ pridaný"
+
+#: src/Services/Subscriber/SubscriberUtil.php:61
+msgid "Service provider is not available for send activate key to your mobile. Please contact with site."
+msgstr "Poskytovateľ služieb nie je k dispozícii na odosielanie aktivačného kľúča do vášho mobilu. Prosím, kontaktujte stránku."
+
+#: src/Services/Subscriber/SubscriberUtil.php:157
+msgid "Activation code is wrong!"
+msgstr "Chybný aktivačný kód!"
+
+#: includes/templates/admin/send-sms.php:56
+msgid "WordPress's Users"
+msgstr "Používatelia WordPress"
+
+#. translators: %s: Activation code
+#: src/Services/Subscriber/SubscriberUtil.php:76
+msgid "Your activation code: %s"
+msgstr "Váš aktivačný kód: %s"
+
+#: includes/admin/class-wpsms-admin.php:283
+msgid "Author"
+msgstr "Text"

@@ -1,0 +1,97 @@
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+/* ================= ACCORDION ================== */
+
+.dvfaq-accordion-header {
+    padding: 20px 25px 20px 50px;
+}
+
+.dvfaq-accordion-header:after {
+    right:auto;
+    left: 20px;
+}
+
+.dvfaq-accordion-content ul,
+.dvfaq-accordion-content ol {
+    padding-right: 20px;
+    padding-left: 0px;
+}
+
+.dvfaq-readmore {
+    text-align: left;
+}
+
+/* ================= SHARE BUTTONS ================== */
+
+.dvfaq-social-share-btns li {
+    float: right;
+}
+
+/* ================= LIKE & DISLIKE BUTTONS ================== */
+
+.dvfaq-like-it,
+.dvfaq-dislike-it {
+    float: right;
+}
+
+.dvfaq-like-title {
+    float: right;
+}
+
+.dvfaq-like-it a,
+.dvfaq-dislike-it a {
+    margin-left: 5px;
+    margin-right:0px;
+}
+
+/* ================= PAGE STRUCTURE ================== */
+
+.dvfaq-wrapper-left {
+    padding-right: 0px;
+    padding-left: 40px;
+}
+
+.dvfaq-wrapper-right {
+    padding-left: 0px;
+    padding-right: 40px;
+}
+
+/* ================= NAVIGATION ================== */
+
+.dvfaq-faq-menu li a span {
+    left: 20px;
+    right: auto;
+}
+
+/* ================= SEARCH ================== */
+
+.dvfaq-live-search-container .dvfaq-live-search-icon:before {
+    left: 25px;
+    right: auto;
+}
+
+/* ================= SWITCHER ================== */
+
+.dvfaq-switcher {
+    text-align: left;
+}
+
+
+/* ================= MEDIA QUERIES ================== */
+
+@media only screen and (max-width: 575px) {
+    .dvfaq-accordion-header {
+        padding: 20px 15px 20px 40px;
+    }
+    .dvfaq-faq-menu li a span,
+    .dvfaq-live-search-container .dvfaq-live-search-icon:before {
+        left: 15px;
+        right: auto;
+    }
+    .dvfaq-social-share-btns li.dvfaq-social-share-btns-title {
+        text-align: right;
+    }
+}

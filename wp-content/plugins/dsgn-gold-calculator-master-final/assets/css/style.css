@@ -1,0 +1,881 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+:root {
+  --font-ash: #d9d8d6;
+  --font-white: #ffffff;
+  --font-border: #f2ce92;
+  --font-1e: #1e1e1e;
+  --font-F5: #f5f3f0;
+  --font-gold: #c99337;
+  --font-gold10: rgba(201, 147, 55, 0.1);
+  --font-abhaya: "Abhaya Libre", serif;
+}
+
+@font-face {
+  font-family: "Abhaya Libre";
+  src: url("../AbhayaLibre-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.entry-content :where(h1, h2, h3, h4, h5, h6, p) {
+  margin-bottom: 0 !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ast-container {
+  padding: 0;
+}
+
+.dsgn-gold-font16 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1em;
+  color: var(--font-F5);
+}
+
+.dsgn-gold-update {
+  background-color: var(--font-F5);
+  padding: 10px 0 0 0;
+  border-radius: 12px 12px 0 0;
+}
+
+.dsgn-gold-tab-bg {
+  max-width: 1240px;
+  margin: 10px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  /* gap: 36px; */
+}
+.dsgn-gold-tab-body {
+  position: relative;
+}
+/* ================= LOADER OVERLAY ================= */
+.page-loader {
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  z-index: 9999;
+  opacity: 1;
+  visibility: visible;
+  transition:
+    opacity 0.4s ease,
+    visibility 0.4s ease;
+}
+
+.page-loader.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.dsgn-gold-tab-container {
+  filter: blur(6px);
+  transition: filter 0.4s ease;
+}
+
+.dsgn-gold-tab-container.is-clear {
+  filter: blur(0);
+}
+
+.dsgn-gold-title-div {
+  background-image: url(../bg.png);
+  background-position: center;
+  background-size: cover;
+  padding: 0px 0 140px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.dsgn-gold-tab-title {
+  text-align: center;
+  font-family: var(--font-abhaya);
+  color: var(--font-gold);
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: 400;
+}
+.dsgn-gold-tab-para {
+  font-size: 18px;
+  text-align: center;
+
+  line-height: 1em;
+  font-weight: 400;
+  color: var(--font-F5);
+}
+
+.dsgn-gold-tab-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.dsgn-gold-tab-container {
+  margin-top: -72px;
+}
+
+.dsgn-gold-tab {
+  padding: 8px 26px;
+  list-style: none;
+  color: var(--font-ash);
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.dsgn-gold-tab-contain.dsgn-gold-active {
+  padding: 8px;
+  background-color: #383835;
+  border-radius: 8px 8px 0px 0px;
+}
+
+.dsgn-gold-tab.dsgn-gold-active {
+  background-color: var(--font-gold);
+  color: #1e1e1e;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.dsgn-gold-tab-body {
+  padding: 32px;
+  background-color: #383835;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.dsgn-gold-tab-card-container {
+  display: flex;
+  /* gap: 12px; */
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  border: 1px solid var(--font-gold);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.dsgn-gold-tab-card {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 8px;
+  /* flex: 0 0 150px;  */
+  flex-shrink: 0;
+  width: 195px;
+  cursor: pointer;
+  padding: 0 22px;
+}
+
+.dsgn-gold-tab-card {
+  border-left: 1px solid var(--font-gold);
+}
+
+/* first card */
+.dsgn-gold-tab-card:first-child {
+  padding-left: 0;
+  padding-right: 22px;
+  border-left: none;
+  border-right: none;
+}
+
+.dsgn-gold-ct {
+  background-color: var(--font-gold10);
+  border-radius: 4px;
+  padding: 8px 10px;
+  color: var(--font-gold);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1em;
+  text-align: center;
+  margin-top: 0 !important;
+}
+
+.dsgn-gold-i-div {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 12px;
+}
+
+.dsgn-gold-tab-card-body {
+  /* padding: 0 10px 10px 10px; */
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0 auto;
+}
+
+.dsgn-gold-carat-table-price {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+/* carat table */
+.dsgn-gold-table-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 32px;
+  border-right: 1px solid #bfbfbd;
+}
+
+.dsgn-gold-table-pc-div {
+  /* height: 460px; */
+  height: 332px;
+  width: 804px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  /* white-space: nowrap; */
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  padding-right: 32px;
+}
+
+.dsgn-gold-table {
+  border-collapse: collapse;
+  border: none !important;
+}
+
+.dsgn-gold-table-mble-div {
+  display: none;
+}
+
+.dsgn-gold-table thead tr,
+.dsgn-gold-table tbody tr {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.dsgn-gold-table tbody tr:last-child {
+  margin-bottom: 0;
+}
+
+.dsgn-gold-table tbody {
+  display: flex;
+  flex-direction: column;
+}
+
+.dsgn-gold-click-here {
+  display: flex;
+  gap: 4px;
+  align-items: flex-end;
+}
+
+.dsgn-gold-unsure {
+  font-size: 14px;
+  line-height: 1em;
+  font-weight: 400;
+  color: #f5f3f0;
+}
+
+.dsgn-gold-click {
+  font-size: 14px;
+  line-height: 1em;
+  font-weight: 700;
+  color: var(--font-border);
+}
+
+.dsgn-gold-table th,
+.dsgn-gold-table td {
+  text-align: left;
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+}
+
+/* Column widths */
+.dsgn-gold-table th:nth-child(1) {
+  width: 412px;
+}
+
+.dsgn-gold-table td:nth-child(1) {
+  width: 412px;
+  min-width: 412px;
+  background-color: rgba(245, 243, 240, 0.1);
+  border: 1px solid rgba(217, 216, 214, 0.4);
+  border-radius: 4px;
+  padding: 7px 12px;
+}
+
+.dsgn-gold-table th:nth-child(2) {
+  width: 120px;
+  min-width: 120px;
+}
+
+.dsgn-gold-table td:nth-child(2) {
+  width: 120px;
+  min-width: 120px;
+  background-color: var(--font-gold10);
+  border: 1px solid var(--font-gold);
+  border-radius: 4px;
+  padding: 5px 12px;
+  text-align: left !important;
+}
+
+.dsgn-gold-table th:nth-child(3),
+.dsgn-gold-table th:nth-child(4) {
+  width: 96px;
+  min-width: 96px;
+}
+
+.dsgn-gold-table td:nth-child(3),
+.dsgn-gold-table td:nth-child(4) {
+  width: 96px;
+  min-width: 96px;
+  gap: 4px;
+  background-color: rgba(245, 243, 240, 0.1);
+  border: 1px solid rgba(217, 216, 214, 0.4);
+  border-radius: 4px;
+  padding: 7px 12px;
+}
+
+.dsgn-gold-table th {
+  color: #9c9c9c;
+  font-weight: bold;
+  padding: 0 !important;
+}
+
+.dsgn-gold-table td {
+  color: #f5f3f0;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.dsgn-gold-t-head {
+  line-height: 20px;
+  color: #9c9c9c;
+  border: none !important;
+  padding: 0 !important;
+}
+
+.dsgn-gold-number-input {
+  width: 94px;
+  outline: none;
+  border: none;
+  background: transparent !important;
+  color: #f5f3f0 !important;
+  text-align: left;
+  font-size: 16px;
+  line-height: 20px;
+  height: 0 !important;
+  padding: 12px 0 !important;
+  border: none !important;
+}
+
+.dsgn-gold-number-input:focus {
+  outline: none;
+}
+
+.dsgn-gold-value {
+  font-weight: 700;
+}
+
+.dsgn-gold-number-div {
+  display: flex;
+  align-items: center;
+}
+
+.dsgn-gold-tab-bg .dsgn-gold-hr {
+  margin: 4px 0 !important;
+  color: #d9d8d6 !important;
+}
+
+.dsgn-gold-table thead tr {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.dsgn-gold-table tr {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  /* justify-content: space-between; */
+}
+
+.dsgn-gold-estimate {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+  color: #f5f3f0;
+  margin-top: 0 !important;
+}
+
+.dsgn-gold-price {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--font-gold);
+  text-align: center;
+  margin-bottom: 0 !important;
+}
+
+.dsgn-gold-i-date {
+  display: flex;
+  gap: 4px;
+}
+
+.dsgn-gold-date {
+  font-size: 12px;
+  font-weight: 400;
+  color: #f5f3f0;
+  margin-bottom: 0 !important;
+  text-align: center;
+}
+
+.dsgn-gold-gold-sliver-platinum {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dsgn-gold-total-price-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 336px;
+}
+
+.dsgn-gold-gold-price,
+.dsgn-gold-platinum-price,
+.dsgn-gold-silver-price,
+.dsgn-gold-palladium-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dsgn-gold-apply {
+  width: 100%;
+  background-color: var(--font-gold);
+  padding: 12px;
+  border-radius: 4px;
+  border: none;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  color: var(--font-1e);
+  margin-top: 11px;
+  cursor: pointer;
+}
+
+.dsgn-gold-apply:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.dsgn-gold-hassle {
+  font-size: 14px;
+  line-height: 1em;
+  color: #8b8c8c;
+  text-align: center;
+}
+
+.dsgn-gold-fair-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.dsgn-gold-fair-hassle {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+.dsgn-gold-metal-totals {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.dsgn-gold-metal,
+.dsgn-gold-estimate-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1em;
+}
+
+/* calculator banner */
+.dsgn-banner-marquee {
+  width: 100%;
+  display: flex;
+  background-color: #000000 !important;
+  align-items: center;
+  padding: 10px 0;
+  overflow: hidden; /* ensures content outside is hidden */
+}
+
+.we-pay {
+  width: 95px;
+  color: var(--font-gold) !important;
+  padding: 0px 12px;
+}
+
+.dsgn-m-para {
+  font-size: 18px;
+  line-height: 26px;
+  color: var(--font-F5);
+  position: relative;
+}
+
+/* 🔹 Marquee wrapper */
+.dsgn-banner-marquee {
+  width: 100%;
+  display: flex;
+  background-color: #000000;
+  align-items: center;
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+.we-pay {
+  width: 95px;
+  color: var(--font-gold) !important;
+  padding: 0px 12px;
+}
+
+.dsgn-m-para {
+  font-size: 16px;
+  line-height: 22px;
+  color: #f5f3f0;
+  position: relative;
+}
+
+.marquee-wrapper {
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.marquee-content {
+  display: inline-block;
+  white-space: nowrap;
+  animation: marquee 25s linear infinite;
+  color: var(--font-F5);
+}
+
+.marquee-content:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+.marquee-item {
+  display: inline-block;
+  padding: 0 20px;
+  border-right: 1px solid var(--font-F5);
+  font-size: 16px;
+  line-height: 22px;
+}
+.marquee-item:last-child {
+  border-right: none;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-33.33%);
+  }
+}
+
+/* mobile */
+@media (max-width: 576px) {
+  .dsgn-gold-tab-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+  .dsgn-gold-tab-bg {
+    padding: 0 16px;
+  }
+  .dsgn-gold-tab-title {
+    font-size: 32px;
+  }
+  .dsgn-gold-tab-para {
+    font-size: 15px;
+  }
+  .dsgn-gold-table-pc-div {
+    display: none;
+  }
+  .dsgn-gold-table-mble-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    height: auto;
+  }
+  .dsgn-gold-table-mble {
+    display: flex !important;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .dsgn-gold-head-table,
+  .dsgn-gold-t-field {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .dsgn-gold-head-table-element {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  /* Column widths - matching the header and field */
+  .dsgn-gold-number-input {
+    width: 70px !important;
+    /* padding: 4px 8px !important; */
+    padding: 12px 8px !important;
+    box-sizing: border-box;
+    background-color: rgba(245, 243, 240, 0.1) !important;
+    border: 1px solid rgba(217, 216, 214, 0.4) !important;
+    border-radius: 4px;
+  }
+
+  .dsgn-gold-gold {
+    color: var(--font-gold);
+    line-height: 20px;
+    font-weight: 600;
+    margin-top: 0 !important;
+  }
+
+  .dsgn-gold-table-title {
+    font-size: 12px;
+    line-height: 1em;
+    color: #d9d8d6;
+    text-align: left !important;
+  }
+  .dsgn-gold-table-title.dsgn-gold-table-title1.ab {
+    width: 80px !important;
+  }
+  .dsgn-gold-table-title1 {
+    width: 75px !important;
+    padding: 0px 0;
+    border-radius: 4px !important;
+  }
+  .dsgn-gold-table-title2 {
+    width: 100px !important;
+  }
+  .dsgn-gold-table-title3 {
+    width: 77px !important;
+  }
+  .dsgn-gold-ct {
+    width: 100%;
+  }
+
+  .dsgn-gold-p-i {
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--font-F5);
+    padding: 4px 8px;
+    box-sizing: border-box;
+    background-color: rgba(245, 243, 240, 0.1);
+    border: 1px solid rgba(217, 216, 214, 0.4);
+    border-radius: 4px;
+  }
+
+  .dsgn-gold-value {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: var(--font-F5);
+    text-align: left !important;
+    padding: 4px 8px;
+    box-sizing: border-box;
+    background-color: rgba(245, 243, 240, 0.1);
+    border: 1px solid rgba(217, 216, 214, 0.4);
+    border-radius: 4px;
+  }
+  .dsgn-gold-table-link {
+    width: 100%;
+    border-right: none;
+    height: 100%;
+  }
+  .dsgn-gold-tab {
+    padding: 8px 13.05px;
+    font-size: 12px;
+  }
+  .dsgn-gold-tab-card {
+    width: 100%;
+  }
+  .dsgn-gold-tab-card-body {
+    margin: 0;
+  }
+  .dsgn-gold-price {
+    text-align: left;
+  }
+  .dsgn-gold-ct {
+    padding: 8px 9px;
+  }
+
+  .dsgn-gold-tab-contain.dsgn-gold-active {
+    padding: 8px;
+    border-radius: 8px 8px 0px 0px;
+  }
+  .dsgn-gold-carat-table-price {
+    flex-direction: column;
+  }
+  .dsgn-gold-tab-body {
+    padding: 16px;
+    border-radius:0 0 20px 20px;
+  }
+  .dsgn-gold-total-price-body {
+    width: 100%;
+  }
+  .dsgn-gold-tab-card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 100%;
+    overflow-x: visible;
+    overflow-y: visible;
+    white-space: normal;
+    column-gap: 12px;
+    row-gap: 20px;
+  }
+  .dsgn-gold-tab-card,
+  .dsgn-gold-tab-card:last-child,
+  .dsgn-gold-tab-card:first-child {
+    padding: 0;
+  }
+  .dsgn-gold-tab-card:not(:first-child):not(:last-child) {
+    border-left: none;
+    border-right: none;
+  }
+  .dsgn-gold-tab-card-container .dsgn-gold-tab-card:nth-child(5) {
+    text-align: center;
+    grid-column: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .dsgn-gold-tab-card {
+    border: none !important;
+  }
+  .dsgn-gold-i-div {
+    flex-direction: column;
+    align-items: self-start;
+    gap: 0 !important;
+  }
+  .dsgn-gold-icon-p {
+    display: none;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 779px) {
+  .dsgn-gold-carat-table-price {
+    gap: 12px;
+  }
+  .dsgn-gold-table-pc-div {
+    width: 100%;
+    padding-right: 10px;
+  }
+  .dsgn-gold-table {
+    padding-right: 10px;
+  }
+  .dsgn-gold-table-link {
+    width: 100%;
+  }
+  .dsgn-gold-total-price-body {
+    width: 100%;
+  }
+  /* Column widths */
+  .dsgn-gold-table th:nth-child(1),
+  .dsgn-gold-table td:nth-child(1) {
+    width: 70px;
+    min-width: 70px;
+  }
+
+  .dsgn-gold-table th:nth-child(2),
+  .dsgn-gold-table th:nth-child(3) {
+    width: 88px;
+    min-width: 88px;
+  }
+  .dsgn-gold-table td:nth-child(2) {
+    width: 88px;
+    min-width: 88px;
+  }
+  .dsgn-gold-number-input {
+    width: 40px;
+  }
+
+  .dsgn-gold-table td:nth-child(3) {
+    width: 68px;
+    min-width: 68px;
+    gap: 4px;
+  }
+
+  .dsgn-gold-table th:nth-child(4),
+  .dsgn-gold-table td:nth-child(4) {
+    width: 70px;
+    min-width: 70px;
+  }
+}
+
+/* tablet */
+@media (min-width: 780px) and (max-width: 1070px) {
+  .dsgn-gold-table-pc-div {
+    width: 100%;
+  }
+  .dsgn-gold-table {
+    padding-right: 10px;
+  }
+  .dsgn-gold-table-link {
+    width: 100%;
+  }
+  .dsgn-gold-total-price-body {
+    width: 100%;
+  }
+  /* Column widths */
+  .dsgn-gold-table th:nth-child(1),
+  .dsgn-gold-table td:nth-child(1) {
+    width: 90px;
+    min-width: 90px;
+  }
+
+  .dsgn-gold-table th:nth-child(2),
+  .dsgn-gold-table td:nth-child(2) {
+    width: 100px;
+    min-width: 100px;
+  }
+  .dsgn-gold-number-input {
+    width: 80px;
+  }
+
+  .dsgn-gold-table th:nth-child(3),
+  .dsgn-gold-table td:nth-child(3) {
+    width: 100px;
+    min-width: 100px;
+    gap: 4px;
+  }
+
+  .dsgn-gold-table th:nth-child(4),
+  .dsgn-gold-table td:nth-child(4) {
+    width: 70px;
+    min-width: 70px;
+  }
+}

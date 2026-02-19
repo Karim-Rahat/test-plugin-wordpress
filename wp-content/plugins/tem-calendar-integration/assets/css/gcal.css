@@ -1,0 +1,312 @@
+/* nunito-regular - latin */
+@font-face {
+  font-display: swap;
+  /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppin';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/poppins@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/poppins@latest/latin-400-normal.woff) format('woff');
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+.tem-gcal-container {
+  max-width: 1280px;
+  margin-inline: auto;
+}
+
+
+/* =========================
+   Layout: View & Filters
+========================= */
+.tem-gcal-container .view-and-filters {
+  display: flex;
+  position: relative;
+  gap: 24px;
+}
+
+.tem-gcal-container .view-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.tem-gcal-container .view-icons .grid-view,
+.tem-gcal-container .view-icons .list-view {
+  border: 1px solid #CCCCCC;
+  border-radius: 8px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.tem-gcal-container .view-icons .active {
+  background: #000;
+  border: none;
+}
+
+.tem-gcal-container .view-icons .grid-view img,
+.tem-gcal-container .view-icons .list-view img {
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+.tem-gcal-container .list-view-active .bottom-shadow-box {
+display: none;
+}
+.tem-gcal-container .grid-view-active .bottom-shadow-box {
+display: block;
+}
+
+
+/* Container for grid */
+.tem-gcal-container .event-list-grid.grid-view-active {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 24px; /* space between cards */
+}
+
+
+/* Individual card */
+.tem-gcal-container .single-event-card {
+    display: flex;
+    flex-direction: column; /* content stacked inside card */
+    gap: 16px; /* space between elements in the card */
+    padding: 16px;
+    border-top: 3px solid var(--event-color, #ED1D24);
+    box-shadow: 0 5px 13px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Optional: hover effect for card lift */
+.tem-gcal-container .single-event-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+/* =========================
+   Event List
+========================= */
+.tem-gcal-container .event-list-grid {
+  margin-top: 36px;
+}
+
+/* =========================
+   Event Card
+========================= */
+.tem-gcal-container .single-event-card .event-datetime.event-datetime-left .event-date {
+  font-size: 118px;
+  line-height: auto;
+}
+
+
+
+.tem-gcal-container .grid-view-active .single-event-card .single-card-inner {
+  padding: 10px 20px 30px 20px;
+    width: 100%;
+}
+
+.tem-gcal-container .card-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+    width: 100%;
+}
+
+.tem-gcal-container .single-event-card h2.event-month {
+  font-size: 36px;
+  font-weight: 400;
+text-transform: uppercase;
+}
+
+/* =========================
+   Event Metadata
+========================= */
+.tem-gcal-container .single-event-card .card-heading .event-metadata {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.tem-gcal-container .single-event-card .event-location {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Poppin", sans-serif;
+  display: flex;
+}
+
+.tem-gcal-container .single-event-card .event-location-and-time {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 8px 29px;
+    align-items: flex-start;
+}
+
+.tem-gcal-container .single-event-card {
+  display: flex;
+  gap: 29px;
+  flex-flow: nowrap;
+}
+
+.info-date-time-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  margin: 10px 0 10px 0;
+}
+
+.tem-gcal-container .single-event-card .event-info-item {
+  font-size: 16px;
+  display: flex;
+  gap: 4px;
+}
+
+.tem-gcal-container .single-event-card .event-info-item img {
+  width: 14px;
+  height: 14px;
+  margin-top: 1px;
+}
+
+.event-metadata-title-and-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.tem-gcal-container .single-event-card .card-description {
+  color: #949494;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+
+/* =========================
+   Date & Time
+========================= */
+.tem-gcal-container .single-event-card .event-datetime {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: start;
+  justify-content: center;
+  text-align: center;
+  /* min-width: 80px; */
+
+}
+
+.tem-gcal-container .single-event-card .event-datetime.event-datetime-left {
+  background: var(--event-color, #ED1D24);
+
+}
+
+.tem-gcal-container .grid-view-active .event-metadata-title-and-date {
+  gap: 10px;
+}
+
+.tem-gcal-container .grid-view-active .single-event-card .event-datetime-left {
+  display: none;
+}
+
+.tem-gcal-container .list-view-active .single-event-card .event-datetime-left {
+  padding: 20px;
+  min-width: 190px;
+}
+
+.tem-gcal-container .list-view-active .single-event-card {
+  padding: 20px;
+}
+
+  .tem-gcal-container .single-event-card .card-heading .event-title {
+    font-size: 24px !important;
+  }
+    .tem-gcal-container .single-event-card .card-heading .info-text {
+      font-size: 13px;
+    }
+
+.tem-gcal-container .list-view-active .single-event-card .event-datetime-top {
+  display: none;
+}
+
+.tem-gcal-container .single-event-card .event-datetime.event-datetime-top .event-date-month {
+  color: var(--event-color, #ED1D24);
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+
+}
+
+.tem-gcal-container .single-event-card .event-datetime.event-datetime-left .event-date-month {
+  color: #fff;
+}
+
+.tem-gcal-container .single-event-card .event-datetime .event-date {
+  font-size: 66px;
+  font-weight: 400;
+}
+
+.tem-gcal-container .single-event-card .event-datetime .event-month {
+  font-size: 24px;
+  margin-top: 10px;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+
+.tem-gcal-container .single-event-card .event-datetime .event-time {
+  font-size: 12px;
+  font-weight: 400;
+  color: #949494;
+  font-family: "Inter", sans-serif;
+}
+
+/* =========================
+   Card Content
+========================= */
+.tem-gcal-container .single-event-card .card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* =========================
+   Read More
+========================= */
+.tem-gcal-container .single-event-card .readmore {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  /* color: blue; */
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.tem-gcal-container .single-event-card .readmore .arrow-icon {
+  transition: transform 0.3s ease;
+}
+
+.tem-gcal-container .single-event-card .readmore.expanded .arrow-icon {
+  transform: rotate(180deg);
+}
+
+
+/*  */
+

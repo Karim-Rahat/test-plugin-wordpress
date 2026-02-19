@@ -1,0 +1,11 @@
+#contestant_add_area {
+    display: none;
+    padding: 10px;
+    border: 5px solid #28a745;
+}
+
+#contest_edit_area {
+    display: none;
+    padding: 10px;
+    border: 5px solid #dc3545;
+}

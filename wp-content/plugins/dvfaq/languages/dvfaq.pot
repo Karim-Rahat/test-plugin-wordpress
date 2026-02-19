@@ -1,0 +1,747 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. Text in function
+#: dvfaq/elementor.php:1
+msgid "\"%1$s\" requires \"%2$s\" version %3$s or greater."
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "\"Deselect all\" to disable social media sharing buttons."
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "A number between 1 and 100."
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-widgets.php:86
+#: dvfaq/faq-woo.php:1
+msgid "ASC"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "Add new category"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "Add new question"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "Add new topic"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-widgets.php:77
+msgid "All Topics"
+msgstr ""
+
+#. Text in function
+#: dvfaq/widgets/faqtopic.php:1
+msgid "Ascending"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Ask a Question"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Ask a Question Tab"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Background Color"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Border Color"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Categories"
+msgstr ""
+
+#. Text in function
+#: dvfaq/widgets/faqcategory.php:1
+msgid "Category"
+msgstr ""
+
+#. Text in function
+#: dvfaq/dvfaq.php:239
+msgid "Clear"
+msgstr ""
+
+#. Text in function
+#: dvfaq/dvfaq.php:239
+msgid "Clear color"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Click Here To Read The Documentation"
+msgstr ""
+
+#. Text in function
+#: dvfaq/dvfaq.php:239
+msgid "Color value"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-widgets.php:97
+#: dvfaq/faq-woo.php:1
+#: dvfaq/widgets/faqtopic.php:1
+msgid "Comment Count"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Comments"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Contact Form"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Content Font Color"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+#: dvfaq/widgets/faqtopic.php:1
+#: dvfaq/widgets/faqcategory.php:1
+msgid "Custom"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Custom CSS"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Custom Post Type"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Custom Skin"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-widgets.php:87
+#: dvfaq/faq-woo.php:1
+msgid "DESC"
+msgstr ""
+
+#. Text in function
+#: dvfaq/dvfaq.php:239
+#: dvfaq/elementor.php:1
+msgid "DVFAQ"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+#: dvfaq/widgets/faqtopic.php:1
+#: dvfaq/widgets/faqcategory.php:1
+msgid "Dark"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-widgets.php:93
+#: dvfaq/faq-woo.php:1
+#: dvfaq/widgets/faqtopic.php:1
+msgid "Date"
+msgstr ""
+
+#. Text in function
+#: dvfaq/dvfaq.php:239
+msgid "Default"
+msgstr ""
+
+#. Text in function
+#: dvfaq/widgets/faqtopic.php:1
+msgid "Descending"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-woo.php:1
+#: dvfaq/faq-settings.php:1
+msgid "Disable"
+msgstr ""
+
+#. Text in function
+#: dvfaq/widgets/faqtopic.php:1
+#: dvfaq/widgets/faqcategory.php:1
+msgid "Disabled"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Dislike Button"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "Dislikes"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-widgets.php:1
+msgid "Displays faq"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "Edit question"
+msgstr ""
+
+#. Text in function
+#: dvfaq/elementor.php:1
+msgid "Elementor"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-sharing.php:10
+#: dvfaq/faq-settings.php:1
+msgid "Email"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-woo.php:1
+#: dvfaq/faq-settings.php:1
+msgid "Enable"
+msgstr ""
+
+#. Text in function
+#: dvfaq/widgets/faqtopic.php:1
+#: dvfaq/widgets/faqcategory.php:1
+msgid "Enabled"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-search.php:2
+msgid "Enter a keyword..."
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-widgets.php:1
+#: dvfaq/faq-settings.php:1
+#: dvfaq/faq-posttype.php:1
+msgid "FAQ"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "FAQ Categories"
+msgstr ""
+
+#. Text in function
+#: dvfaq/widgets/faqcategory.php:1
+msgid "FAQ Category"
+msgstr ""
+
+#. Text in function
+#: dvfaq/widgets/faqtopic.php:1
+msgid "FAQ Topic"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "FAQ Topics"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-sharing.php:24
+#: dvfaq/faq-settings.php:1
+msgid "Facebook"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "General Settings"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "H1"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "H2"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "H3"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "H4"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "H5"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "H6"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Heading Font Color"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Heading Level"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-widgets.php:94
+#: dvfaq/faq-woo.php:1
+msgid "ID"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "It works by allowing you to add your own CSS styles, which allows you to override the default styles of the plugin."
+msgstr ""
+
+#. Text in function
+#: dvfaq/widgets/faqcategory.php:1
+msgid "Left"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+#: dvfaq/widgets/faqtopic.php:1
+#: dvfaq/widgets/faqcategory.php:1
+msgid "Light"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Like Button"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "Likes"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "Likes & Dislikes"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Link Font Color"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-sharing.php:31
+#: dvfaq/faq-settings.php:1
+msgid "Linkedin"
+msgstr ""
+
+#. Text in function
+#: dvfaq/widgets/faqtopic.php:1
+msgid "Maximum number of articles"
+msgstr ""
+
+#. Text in function
+#: dvfaq/widgets/faqtopic.php:1
+msgid "Menu Order"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "New category"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "New question"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "New topic"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-woo.php:1
+#: dvfaq/faq-posttype.php:1
+msgid "No"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "No question found"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "No question found in trash"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-search.php:
+msgid "No results found."
+msgstr ""
+
+#. Text in function
+#: dvfaq/widgets/faqcategory.php:1
+msgid "None"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-widgets.php:101
+msgid "Number of faq to show:"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "Open by default (Accordion)"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-woo.php:1
+#: dvfaq/widgets/faqtopic.php:1
+msgid "Order"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-woo.php:1
+#: dvfaq/widgets/faqtopic.php:1
+msgid "Order By"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-widgets.php:91
+msgid "Order by:"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-widgets.php:84
+msgid "Order:"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-content.php:108
+#: dvfaq/faq-menu.php:77
+msgid "Others"
+msgstr ""
+
+#. Text in function
+#: dvfaq/elementor.php:1
+msgid "PHP"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-woo.php:1
+msgid "Paginate"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "Parent question:"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Permalinks Settings"
+msgstr ""
+
+#. Text in function
+#: dvfaq/widgets/faqcategory.php:1
+msgid "Please select a category."
+msgstr ""
+
+#. Text in function
+#: dvfaq/widgets/faqtopic.php:1
+msgid "Please select a topic."
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Please take the time to read the documentation. As many support related questions can be answered simply by re-reading the documentation."
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-woo.php:1
+msgid "Product FAQ"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Product FAQ Tab"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "Question"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-widgets.php:96
+#: dvfaq/faq-woo.php:1
+#: dvfaq/widgets/faqtopic.php:1
+msgid "Random"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-content.php:131
+#: dvfaq/faq-topic.php:70
+msgid "Read More..."
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-sharing.php:38
+#: dvfaq/faq-settings.php:1
+msgid "Reddit"
+msgstr ""
+
+#. Text in function
+#: dvfaq/widgets/faqcategory.php:1
+msgid "Right"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Save Settings"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Scroll Animation"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-woo.php:1
+#: dvfaq/widgets/faqtopic.php:1
+#: dvfaq/widgets/faqcategory.php:1
+msgid "Search Box"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Search Box Background Color"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Search Box Border Color"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Search Box Font Color"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "Search questions"
+msgstr ""
+
+#. Text in function
+#: dvfaq/dvfaq.php:239
+msgid "Select Color"
+msgstr ""
+
+#. Text in function
+#: dvfaq/dvfaq.php:239
+msgid "Select default color"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+#: dvfaq/widgets/faqtopic.php:1
+#: dvfaq/widgets/faqcategory.php:1
+msgid "Settings"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-sharing.php:6
+msgid "Share This:"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Sharing Buttons"
+msgstr ""
+
+#. Text in function
+#: dvfaq/dvfaq.php:1
+#: dvfaq/dvfaq.php:218
+msgid "Shortcode"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Single Q&A Page Skin"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-woo.php:1
+#: dvfaq/widgets/faqtopic.php:1
+#: dvfaq/widgets/faqcategory.php:1
+msgid "Skin"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Sticky Menu"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-woo.php:1
+#: dvfaq/widgets/faqtopic.php:1
+#: dvfaq/widgets/faqcategory.php:1
+msgid "Switcher"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Tab Name"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Tab Priority"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "The animation which occurs when a user click a menu item."
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "The distance between the topic title and the top of the page after the scroll animation (px)."
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-widgets.php:95
+#: dvfaq/faq-woo.php:1
+#: dvfaq/widgets/faqtopic.php:1
+msgid "Title"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-widgets.php:71
+msgid "Title:"
+msgstr ""
+
+#. Text in function
+#: dvfaq/widgets/faqcategory.php:1
+msgid "Top"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Top Margin"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-woo.php:1
+#: dvfaq/widgets/faqtopic.php:1
+msgid "Topic"
+msgstr ""
+
+#. Text in function
+#: dvfaq/widgets/faqcategory.php:1
+msgid "Topic Menu"
+msgstr ""
+
+#. Text in function
+#: dvfaq/widgets/faqcategory.php:1
+msgid "Topic Title"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-widgets.php:75
+msgid "Topic:"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Topics"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-sharing.php:17
+#: dvfaq/faq-settings.php:1
+msgid "Twitter"
+msgstr ""
+
+#. Text in echo
+#: dvfaq/faq-sharing.php:45
+#: dvfaq/faq-settings.php:1
+msgid "VK"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-posttype.php:1
+msgid "View question"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-likes.php:1
+#: dvfaq/faq-likes.php:62
+msgid "Was this helpful?"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-settings.php:1
+msgid "Woocommerce Settings"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-woo.php:1
+#: dvfaq/faq-posttype.php:1
+msgid "Yes"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-likes.php:1
+#: dvfaq/faq-likes.php:132
+msgid "You already rated this!"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-woo.php:1
+msgid "custom"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-woo.php:1
+msgid "dark"
+msgstr ""
+
+#. Text in function
+#: dvfaq/faq-woo.php:1
+msgid "light"
+msgstr ""
